@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Pricing Panel</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            padding: 50px;
+        }
+        main {
+            padding: 30px;
+            text-align: center;
+        }
+        .container {
+            background-color: #E1DEFD;
+            margin: auto;
+            border-radius: 15px;
+            padding: 50px;
+            max-width: 950px;
+        }
+
+        .main-title h1, .main-title p {
+            color: #7069B9;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        .personal-plan {
+            background-color: #F5F5DB;
+            padding: 25px;
+            display: inline-block;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .personal-plan header img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .personal-plan header h2 {
+            font-size: 1.2rem;
+            color: #7069B9;
+            padding: 10px;
+        }
+        .small-team header h2 {
+            color: white;
+        }
+        .personal-plan div p {
+            color: #b7b2b2;
+            font-size: .7rem;
+            padding-top: 10px;
+            padding-bottom: 15px;
+        }
+    
+       .small-team div p {
+            color: white;
+        }
+        .personal-plan p a {
+            color: #7069B9;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+           
+        }
+        .small-team p a {
+            color: white;         
+        }
+        .personal-plan p a:hover {
+            text-decoration: underline;
+           
+        }
+        .link {
+            padding-bottom: 50px;
+        }
+         .button {
+            background-color: transparent;
+            padding: 5px 70px;
+            color: #7069B9;
+            border: 1.5px solid #7069B9;
+            border-radius: 4px;
+            font-size: .7rem;
+        }
+        .button:hover {
+          /* box-shadow: 1px 1px #7069B9; */
+          cursor: pointer;
+        }
+        .see-all-subscription {
+            display: block;
+            background-color: #F5F5DB;
+            padding: 15px 25px;
+            border-radius: 12px;
+            color: #7069B9;
+            border: none;
+            font-size: .9rem;
+            margin: auto;
+        }
+        .see-all-subscription:hover {
+            box-shadow: 2px 3px #7069B9;
+        }
+        .small-team {
+            background-color: #7069B9;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+            <section class="main-title">
+                <header>
+                    <h1>
+                        Choose the right plan for you.
+                    </h1>
+                    <p>
+                        Unleash your creative potential with our three-tier subcription service, <br> designed to cater to every level of socila media enthusiast
+                    </p>
+
+                </header>
+            </section>
+            <main>
+                <section class="personal-plan">
+                    <header>
+                        <img src="images/cook-illustration.svg" alt="cook">
+                        <h2>Personal</h2>
+                    </header>
+                    <div>
+                        <p>Tips and tricks for trendy <br>angles & shots</p>
+                        
+                    </div>
+                    <p class="link">
+                        <a href="#">FREE</a>
+                    </p>
+                    <footer>
+                        <button class="button">
+                            Sign Up
+                        </button>
+                    </footer>
+
+                </section>
+
+                <section class="personal-plan small-team">
+                    <header>
+                        <img src="images/singer-illustration.svg" alt="singer">
+                        <h2>Small team</h2>
+                    </header>
+                    <div>
+                        <p>Small tools to record the <br>world's next hit in seconds
+                        
+                    </div>
+                    <p class="link">
+                        <a href="#">$150</a>
+                    </p>
+                    <footer>
+                        <button class="button">
+                            Free Trial
+                        </button>
+                    </footer>
+
+                </section>
+                <section class="personal-plan">
+                    <header>
+                        <img src="images/social-media-illustration.svg" alt="cook">
+                        <h2>Enterprise</h2>
+                    </header>
+                    <div>
+                        <p>Get all the tools you need to <br>upgrade your followers account</p>
+                        
+                    </div>
+                    <p class="link">
+                        <a href="#">$400</a>
+                    </p>
+                    <footer>
+                        <button class="button">
+                            Sign Up
+                        </button>
+                    </footer>
+
+                </section>
+            </main>
+            <footer>
+                <button class="button see-all-subscription">
+                    See all available subscriptions
+                </button>
+            </footer>
+
+    </div>
+
+    
+</body>
+</html>
